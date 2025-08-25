@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foomka Xiriirka</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="profile">
+        <h1>Hodan General Hospital</h1>
+        <div class="list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                 <!-- <li><a href="login.html">Login</a></li> -->
+            </ul>
+             <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+                </div>
+        </div>
+    </div>
+
+  <main class="container">
+    <!-- Qaybta Foomka -->
+     <div class="card1">
+    <section class="card form-card" aria-labelledby="form-title">
+    
+      <h1 id="form-title">Foomka Xiriirka</h1>
+      <p class="muted">
+        Ku buuxi foomkan si aan si dhakhso leh kuula soo xirirno. Waxaan kuu
+        soo celin doonaa jawaab degdeg ah.
+      </p>
+
+      <form class="form" action="#" method="post" novalidate>
+        <div class="grid-2">
+          <div class="field">
+            <label for="full-name">Magaca oo Saddexan</label>
+            <input id="full-name" name="name" type="text" placeholder="Magacaaga"
+                   required />
+            <small class="hint">Magaca oo buuxa</small>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="tusaale@gmail.com"
+                   required />
+          </div>
+
+          <div class="field">
+            <label for="phone">Lambarka Taleefanka</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel"
+                   placeholder="+252 61 *******" pattern="[\+\d\s\-]{7,}" />
+          </div>
+
+          <div class="field">
+            <label for="service">Adeega</label>
+            <select id="service" name="service">
+              <option value="">- Dooro adeeg -</option>
+              <option>Su’aal Caafimaad</option>
+              <option>Fariin</option>
+              <option>Cabasho</option>
+              <option>Warbixin Caafimaad</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">Cinwaan / Mawduuc</label>
+          <input id="subject" name="subject" type="text"
+                 placeholder="Waa maxay mawduuca?" />
+        </div>
+
+        <div class="field">
+          <label for="message">Fariintaada</label>
+          <textarea id="message" name="message" rows="6"
+                    placeholder="Halkan ku qor fariinta..."></textarea>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn primary">Soo Dir Fariinta</button>
+          <p class="tiny muted">Ama na waydii WhatsApp / Telefoon.</p>
+        </div>
+      </form>
+    </section>
+</div>
+
+    <!-- Qaybta Macluumaad Dheeri'ah -->
+     <div class="card2">
+    <aside class="card info-card" aria-labelledby="info-title">
+      <h2 id="info-title">Macluumaad Dheeri'ah</h2>
+
+      <ul class="info-list">
+        <li class="info-item">
+          <span class="icon" aria-hidden="true">
+            <!-- Location icon -->
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"></path>
+            </svg>
+          </span>
+          <div>
+            <div class="label">Cinwaan</div>
+            <div>Abdiqasim road, Hodan District, Mogadishu, Soomaaliya</div>
+          </div>
+        </li>
+
+        <li class="info-item">
+          <span class="icon" aria-hidden="true">
+            <!-- Phone icon -->
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.26c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.57 3.6a1 1 0 0 1-.26 1L6.6 10.8z"></path>
+            </svg>
+          </span>
+          <div>
+            <div class="label">Taleefan</div>
+            <div>+252 61 1 676555 · +252 61 1 676555</div>
+          </div>
+        </li>
+
+        <li class="info-item">
+          <span class="icon" aria-hidden="true">
+            <!-- Mail icon -->
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"></path>
+            </svg>
+          </span>
+          <div>
+            <div class="label">Email</div>
+            <div>info@hodanhospital.com</div>
+          </div>
+        </li>
+
+        <li class="info-item">
+          <span class="icon" aria-hidden="true">
+            <!-- Clock icon -->
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 11h5v-2h-4V6h-2v7z"></path>
+            </svg>
+          </span>
+          <div>
+            <div class="label">Saacadaha Shaqada</div>
+            <div>Sabti – Jimco:  24 Hours ·</div>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    </div>
+  </main>
+
+  <div class="container3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.2969158340375!2d45.3103619!3d2.0370665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d584362cbb7fa73%3A0x266307c7fd3ea3b2!2sHodan%20Hospital!5e0!3m2!1sen!2sso!4v1755187635786!5m2!1sen!2sso" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+<footer>
+
+    <div class="footer1">
+        <div class="footer">
+        <div>
+        <h1>Hodan General Hospital</h1>
+        <p>Waxaan bixinaa adeegyo caafimaad oo dhammaystiran: deg-deg, qaliin, daryeel hooyo iyo dhallaanka, iyo talo caafimaad oo xirfad leh.</p>
+        </div>
+        <div class="social-media">
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        </div>
+
+        <div class="muuse">
+            <h2>Contact Us</h2>
+            <p>Email:@info.hodanhospital.com</p>
+        </div>
+        </div>
+
+        <div class="footer2">
+            <p>&copy; 2025 Hodan General Hospital. All rights reserved.</p>
+        </div>
+</footer>
+</body>
+</html>
